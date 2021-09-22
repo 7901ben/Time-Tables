@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         seekBar=findViewById(R.id.seekBar);
          listView =findViewById(R.id.listView);//ll
-        seekBar.setMax(20);
+        seekBar.setMax(100);
         seekBar.setProgress(10);
         generateTimesTable(10);
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
